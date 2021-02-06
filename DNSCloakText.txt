@@ -1,0 +1,5 @@
+commctrl.api.tongbu.com
+abcommctrl.api.tongbu.com
+base.pandahelp.vip
+rpt-api.tongbu.com
+bot-api.pandahelp.vip
