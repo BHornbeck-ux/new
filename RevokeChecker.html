@@ -54,13 +54,30 @@ https://raw.githubusercontent.com/BHornbeck-ux/new/main/B59CF6FE-8140-4A8D-BD9F-
 <img src="https://raw.githubusercontent.com/BHornbeck-ux/new/main/DDFE0029-7673-440C-9AA0-A50778E990E8.png">
       </div>
 </div>
+<script>
+      var indexValue = 0;
+      function slideShow(){
+        setTimeout(slideShow, 2500);
+        var x;
+        const img = document.querySelectorAll("img");
+        for(x = 0; x < img.length; x++){
+          img[x].style.display = "none";
+        }
+        indexValue++;
+        if(indexValue > img.length){indexValue = 1}
+        img[indexValue -1].style.display = "block";
+      }
+      slideShow();
+    </script>
+</body>
+</html>
 
 <center>
-<h2>TutuBox Is SIGNED</h1>
-<h2>AppValley Is SIGNED</h1>
-<h2>AppCake Is SIGNED</h1>
-<h2>EonHub Is SIGNED</h1>
-<h2>Scarlet Is SIGNED</h1>
+<h2>TutuBox Is SIGNED</h2>
+<h2>AppValley Is SIGNED</h2>
+<h2>AppCake Is SIGNED</h2>
+<h2>EonHub Is SIGNED</h2>
+<h2>Scarlet Is SIGNED</h2>
 </center>
 
 <a href="https://bhornbeck-ux.github.io/new/credits/developer.html"
